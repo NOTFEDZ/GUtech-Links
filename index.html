@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>GUtech Accommodations Approval</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GUtech Quick Links 💡</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff9fb;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #b0436e;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .links-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: #333;
+      border: 2px solid transparent;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #ffd1e3;
+      box-shadow: 0 6px 20px rgba(255, 128, 171, 0.2);
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #b0436e;
+    }
+
+    .card-url {
+      font-size: 0.85rem;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to GUtech Accommodations Approval</h1>
-    <p>This is a demo page for the exhibition ?</p>
+  <h1>✨ GUtech Quick Links</h1>
+  <p>Explore important resources for students and applicants</p>
+
+  <div class="links-container">
+    <a class="card" href="https://www.gutech.edu.om/applicants-to-undergraduate-programmes/" target="_blank">
+      <div class="card-title">🎓 Admission Requirements</div>
+      <div class="card-url">gutech.edu.om</div>
+    </a>
+
+    <a class="card" href="https://www.gutech.edu.om/admissions-scholarships/scholarships/" target="_blank">
+      <div class="card-title">💸 Scholarships</div>
+      <div class="card-url">gutech.edu.om</div>
+    </a>
+
+    <a class="card" href="https://www.gutech.edu.om/undergraduate-programmes/" target="_blank">
+      <div class="card-title">📚 Undergraduate Programmes</div>
+      <div class="card-url">gutech.edu.om</div>
+    </a>
+
+    <a class="card" href="https://www.gutech.edu.om/postgraduate-programmes/" target="_blank">
+      <div class="card-title">🎓 Postgraduate Programmes</div>
+      <div class="card-url">gutech.edu.om</div>
+    </a>
+
+    <a class="card" href="https://www.gutech.edu.om/tuition-fees/" target="_blank">
+      <div class="card-title">💰 Tuition Fees</div>
+      <div class="card-url">gutech.edu.om</div>
+    </a>
+
+    <a class="card" href="https://oes-properties.com/" target="_blank">
+      <div class="card-title">🏠 Accommodations</div>
+      <div class="card-url">oes-properties.com</div>
+    </a>
+  </div>
 </body>
 </html>
